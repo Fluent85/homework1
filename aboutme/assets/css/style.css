@@ -32,7 +32,7 @@ header {
     padding-right: 0px;
 }
 #container{
-    margin: 0px 150px 0px 150px;
+    margin: 30px 150px 0px 150px;
     background-color: white;
     overflow: auto;
     width: 960px;
@@ -60,6 +60,7 @@ h1 {
 width: 500px;
 float: left;
 margin-left: 10px;
+letter-spacing: 1px;
 }
 
 #profile {
@@ -71,8 +72,35 @@ footer {
   background-color: #666666;
   border-top: solid;
   border-color: #4aaaa5;
-  bottom: 0px;
+  border-top-width: 10px;
+  bottom: 1px;
   width: 100%;
   position: absolute;
   
+}
+#hangman {
+  border: 1px solid black;
+  float: left; 
+}
+
+#rpg {
+  border: 1px solid black;
+  float: right;
+}
+
+#trivia {
+  position: absolute;
+  border: 1px solid black;
+  float: right;
+}
+
+#rutgers {
+  border: 1px solid black;
+  float: right; 
+}
+
+#rock {
+  border: 1px solid black;
+  float: left;
+
 }
