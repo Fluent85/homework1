@@ -9,7 +9,7 @@ header {
     border-bottom: 2px solid #cccccc;
 
 }
-.name {
+h1 {
   background-color: #4aaaa5;
   color: #ffffff;
   float: left;
@@ -38,13 +38,14 @@ header {
     width: 960px;
 }
 
-h1 {
+h2 {
   color: #4aaaa5;
   border-bottom: 2px solid #cccccc;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
   font-size: 30px;
+  
 }
 
 #portfolio {
@@ -75,32 +76,40 @@ footer {
   border-top-width: 10px;
   bottom: 1px;
   width: 100%;
-  position: absolute;
+  position: relative;
   
 }
-#hangman {
-  border: 1px solid black;
-  float: left; 
-}
-
-#rpg {
-  border: 1px solid black;
-  float: right;
-}
-
-#trivia {
-  position: absolute;
-  border: 1px solid black;
-  float: right;
-}
-
-#rutgers {
-  border: 1px solid black;
-  float: right; 
-}
-
-#rock {
-  border: 1px solid black;
+#ipad {
   float: left;
-
+  margin: 25px;
+  width: 25%;
 }
+
+#htmlcss {
+  float: left;
+  margin: 25px;
+  width: 25%;
+}
+
+#javascript {
+  float: left;
+  margin: 25px;
+  width: 25%;
+}
+
+#python {
+   float: left;
+   margin: 25px;
+   width: 25%;
+}
+
+.col-1 {
+  display: flex;
+  
+}
+
+
+
+
+  
+
